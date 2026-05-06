@@ -1,0 +1,155 @@
+.navbar {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    /* Use left/right instead of width to be more resilient */
+    max-width: 1280px;
+    margin: 0 auto;
+    z-index: 1000;
+    backdrop-filter: blur(16px);
+    overflow: visible;
+    /* Ensure nothing is cut off */
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    width: 100%;
+    gap: 1rem;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 1.35rem;
+    /* Slightly smaller */
+    flex-shrink: 0;
+}
+
+.nav-brand:hover {
+    transform: scale(1.05);
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    /* Very compact gaps */
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.auth-section {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 500;
+    transition: color 0.2s ease;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.user-greeting {
+    font-weight: 500;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    white-space: nowrap;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 0.25rem 0.5rem;
+    padding-right: 0.75rem;
+    border-radius: 30px;
+    border: 1px solid var(--glass-border);
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    transition: all 0.2s ease;
+}
+
+.profile-link:hover {
+    transform: scale(1.1);
+    background: var(--primary-hover);
+}
+
+.logout-btn {
+    background: var(--primary);
+    /* Try a button-like look for visibility */
+    color: white;
+    border: none;
+    padding: 0.35rem 0.85rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.logout-btn:hover {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+}
+
+.btn-sm {
+    padding: 0.35rem 0.85rem;
+    font-size: 0.75rem;
+}
+
+@media (max-width: 900px) {
+    .user-greeting {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    .nav-links {
+        display: none;
+        /* Hide secondary links on very small screens */
+    }
+}

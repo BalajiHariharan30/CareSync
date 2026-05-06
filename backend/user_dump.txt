@@ -1,0 +1,6 @@
+ALL USERS IN DATABASE:
+Email: admin@care.com | isAdmin: true | isDoctor: false | googleId: No
+Email: raghulstark475@gmail.com | isAdmin: false | isDoctor: false | googleId: No
+Email: bhuvankattur@gmail.com | isAdmin: false | isDoctor: false | googleId: No
+Email: bhuvaneshwar.cs22@bitsathy.ac.in | isAdmin: true | isDoctor: false | googleId: Yes
+Email: smarteducation514@gmail.com | isAdmin: false | isDoctor: false | googleId: Yes

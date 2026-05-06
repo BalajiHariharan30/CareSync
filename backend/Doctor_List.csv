@@ -1,0 +1,201 @@
+ID,Name,Email,Specialization,Clinic,Consultation Fee
+1,N/A,N/A,Dermatologist,Wellness Hub - Chennai,1100
+2,N/A,N/A,Endocrinologist,City Care Clinic - Pune,1520
+3,N/A,N/A,Psychiatrist,Global Diagnostics - Lucknow,1330
+4,N/A,N/A,Dentist,Healwell Center - Hyderabad,1340
+5,N/A,N/A,Gastroenterologist,Healwell Center - Jaipur,1240
+6,N/A,N/A,Ophthalmologist,Elite Medical - Hyderabad,1740
+7,N/A,N/A,Ophthalmologist,Global Diagnostics - Lucknow,840
+8,N/A,N/A,Gastroenterologist,Wellness Hub - Hyderabad,670
+9,N/A,N/A,Neurologist,Metro Health - Delhi,1770
+10,N/A,N/A,Psychiatrist,Sunrise Medical - Jaipur,1470
+11,N/A,N/A,Dermatologist,Elite Medical - Hyderabad,470
+12,N/A,N/A,Oncologist,Elite Medical - Hyderabad,560
+13,N/A,N/A,ENT Specialist,Healwell Center - Delhi,1250
+14,N/A,N/A,Gastroenterologist,Healwell Center - Chennai,980
+15,N/A,N/A,Cardiologist,Global Diagnostics - Hyderabad,1870
+16,N/A,N/A,Urologist,Sunrise Medical - Jaipur,1980
+17,N/A,N/A,Dentist,Family First Clinic - Kolkata,1460
+18,N/A,N/A,Neurologist,Healwell Center - Pune,1160
+19,N/A,N/A,Dermatologist,Sunrise Medical - Bangalore,1210
+20,N/A,N/A,Urologist,City Care Clinic - Bangalore,1590
+21,N/A,N/A,Cardiologist,Apex Healthcare - Mumbai,1870
+22,N/A,N/A,Gynecologist,Wellness Hub - Bangalore,1410
+23,N/A,N/A,Orthopedic Surgeon,Apex Healthcare - Mumbai,1290
+24,N/A,N/A,Dermatologist,Metro Health - Chennai,1680
+25,N/A,N/A,Ophthalmologist,Lifeline Hospital - Bangalore,1350
+26,N/A,N/A,Psychiatrist,Lifeline Hospital - Kolkata,1590
+27,N/A,N/A,Ophthalmologist,Sunrise Medical - Mumbai,370
+28,N/A,N/A,Psychiatrist,Apex Healthcare - Jaipur,750
+29,N/A,N/A,Neurologist,Elite Medical - Bangalore,1300
+30,N/A,N/A,Cardiologist,Apex Healthcare - Chennai,1100
+31,N/A,N/A,Orthopedic Surgeon,City Care Clinic - Delhi,750
+32,N/A,N/A,Urologist,Metro Health - Chennai,1210
+33,N/A,N/A,General Physician,Lifeline Hospital - Kolkata,1510
+34,N/A,N/A,Neurologist,Metro Health - Bangalore,460
+35,N/A,N/A,General Physician,Elite Medical - Bangalore,1430
+36,N/A,N/A,Pediatrician,Elite Medical - Jaipur,1920
+37,N/A,N/A,Gynecologist,City Care Clinic - Bangalore,700
+38,N/A,N/A,Dermatologist,Sunrise Medical - Kolkata,1870
+39,N/A,N/A,Dermatologist,Global Diagnostics - Kolkata,1420
+40,N/A,N/A,Cardiologist,Metro Health - Mumbai,1250
+41,N/A,N/A,Ophthalmologist,Lifeline Hospital - Kolkata,760
+42,N/A,N/A,ENT Specialist,Lifeline Hospital - Jaipur,1300
+43,N/A,N/A,General Physician,Global Diagnostics - Lucknow,310
+44,N/A,N/A,Gastroenterologist,Healwell Center - Jaipur,1730
+45,N/A,N/A,Endocrinologist,Apex Healthcare - Hyderabad,930
+46,N/A,N/A,General Physician,Wellness Hub - Hyderabad,790
+47,N/A,N/A,Dermatologist,Elite Medical - Chennai,1170
+48,N/A,N/A,Orthopedic Surgeon,Apex Healthcare - Lucknow,1300
+49,N/A,N/A,Ophthalmologist,City Care Clinic - Pune,1470
+50,N/A,N/A,Dermatologist,Wellness Hub - Ahmedabad,1340
+51,N/A,N/A,Psychiatrist,Global Diagnostics - Hyderabad,1330
+52,N/A,N/A,Gynecologist,Apex Healthcare - Hyderabad,730
+53,N/A,N/A,Oncologist,Elite Medical - Hyderabad,1100
+54,N/A,N/A,Endocrinologist,Healwell Center - Bangalore,1130
+55,N/A,N/A,ENT Specialist,Family First Clinic - Kolkata,400
+56,N/A,N/A,Dentist,Global Diagnostics - Ahmedabad,1300
+57,N/A,N/A,Orthopedic Surgeon,Elite Medical - Ahmedabad,470
+58,N/A,N/A,Pediatrician,Apex Healthcare - Mumbai,1190
+59,N/A,N/A,Dermatologist,Family First Clinic - Mumbai,1610
+60,N/A,N/A,ENT Specialist,Apex Healthcare - Chennai,1040
+61,N/A,N/A,Endocrinologist,Elite Medical - Kolkata,1010
+62,N/A,N/A,Neurologist,Family First Clinic - Bangalore,1520
+63,N/A,N/A,Psychiatrist,Family First Clinic - Bangalore,2000
+64,N/A,N/A,Oncologist,Healwell Center - Ahmedabad,1840
+65,N/A,N/A,Gynecologist,Metro Health - Chennai,1700
+66,N/A,N/A,Cardiologist,Elite Medical - Chennai,600
+67,N/A,N/A,Oncologist,Global Diagnostics - Lucknow,1300
+68,N/A,N/A,Orthopedic Surgeon,Family First Clinic - Chennai,910
+69,N/A,N/A,Dermatologist,Sunrise Medical - Ahmedabad,1310
+70,N/A,N/A,General Physician,City Care Clinic - Lucknow,630
+71,N/A,N/A,Neurologist,Lifeline Hospital - Hyderabad,860
+72,N/A,N/A,Neurologist,Sunrise Medical - Lucknow,1290
+73,N/A,N/A,Neurologist,Family First Clinic - Hyderabad,900
+74,N/A,N/A,Neurologist,Apex Healthcare - Hyderabad,640
+75,N/A,N/A,Cardiologist,Family First Clinic - Ahmedabad,820
+76,N/A,N/A,Psychiatrist,Family First Clinic - Pune,1510
+77,N/A,N/A,Pediatrician,Elite Medical - Chennai,930
+78,N/A,N/A,Dermatologist,Sunrise Medical - Jaipur,360
+79,N/A,N/A,Orthopedic Surgeon,Sunrise Medical - Kolkata,1260
+80,N/A,N/A,Orthopedic Surgeon,Elite Medical - Ahmedabad,1050
+81,N/A,N/A,Ophthalmologist,Global Diagnostics - Mumbai,1190
+82,N/A,N/A,General Physician,Wellness Hub - Chennai,1920
+83,N/A,N/A,Oncologist,Lifeline Hospital - Ahmedabad,1620
+84,N/A,N/A,Endocrinologist,Elite Medical - Chennai,1630
+85,N/A,N/A,Endocrinologist,Sunrise Medical - Chennai,1300
+86,N/A,N/A,General Physician,Family First Clinic - Lucknow,1070
+87,N/A,N/A,Pediatrician,Apex Healthcare - Jaipur,750
+88,N/A,N/A,ENT Specialist,Sunrise Medical - Ahmedabad,660
+89,N/A,N/A,Neurologist,Metro Health - Ahmedabad,1540
+90,N/A,N/A,Pediatrician,Sunrise Medical - Chennai,1960
+91,N/A,N/A,Neurologist,Elite Medical - Bangalore,1520
+92,N/A,N/A,Neurologist,Elite Medical - Chennai,620
+93,N/A,N/A,Psychiatrist,Sunrise Medical - Lucknow,690
+94,N/A,N/A,Cardiologist,Apex Healthcare - Bangalore,810
+95,N/A,N/A,Pediatrician,Healwell Center - Hyderabad,760
+96,N/A,N/A,Dermatologist,City Care Clinic - Lucknow,1070
+97,N/A,N/A,Endocrinologist,Wellness Hub - Chennai,800
+98,N/A,N/A,Oncologist,Metro Health - Jaipur,920
+99,N/A,N/A,Dentist,City Care Clinic - Chennai,480
+100,N/A,N/A,Endocrinologist,Metro Health - Ahmedabad,1750
+101,Diya Reddy,doctor@caresync.com,Urologist,Sunrise Medical - Mumbai,1050
+102,Vikram Venkatesh,doctor2@caresync.com,Pediatrician,Family First Clinic - Pune,1820
+103,Vihaan Kumar,doctor3@caresync.com,Orthopedic Surgeon,Elite Medical - Kolkata,1610
+104,Vivaan Venkatesh,doctor4@caresync.com,Orthopedic Surgeon,Healwell Center - Bangalore,1610
+105,Anita Patel,doctor5@caresync.com,Gynecologist,Wellness Hub - Kolkata,810
+106,Arjun Singh,doctor6@caresync.com,Gynecologist,Wellness Hub - Chennai,1910
+107,Sunita Singh,doctor7@caresync.com,Ophthalmologist,Apex Healthcare - Lucknow,1120
+108,Vihaan Joshi,doctor8@caresync.com,Oncologist,Global Diagnostics - Delhi,1350
+109,Saisha Venkatesh,doctor9@caresync.com,Urologist,Sunrise Medical - Hyderabad,380
+110,Vijay Mehta,doctor10@caresync.com,Urologist,Apex Healthcare - Bangalore,1270
+111,Sanjay Deshmukh,doctor11@caresync.com,Neurologist,Wellness Hub - Lucknow,1040
+112,Sneha Rao,doctor12@caresync.com,Ophthalmologist,Elite Medical - Bangalore,1270
+113,Advait Kulkarni,doctor13@caresync.com,Pediatrician,Family First Clinic - Lucknow,1030
+114,Rahul Chatterjee,doctor14@caresync.com,Gastroenterologist,Global Diagnostics - Chennai,1850
+115,Diya Verma,doctor15@caresync.com,Gastroenterologist,Healwell Center - Chennai,1760
+116,Suresh Kumar,doctor16@caresync.com,Gynecologist,Elite Medical - Chennai,1320
+117,Rahul Venkatesh,doctor17@caresync.com,Neurologist,Family First Clinic - Kolkata,740
+118,Kiran Kumar,doctor18@caresync.com,Dentist,Family First Clinic - Delhi,880
+119,Vihaan Singh,doctor19@caresync.com,Dermatologist,Lifeline Hospital - Delhi,1940
+120,Sunita Mehta,doctor20@caresync.com,ENT Specialist,Healwell Center - Delhi,900
+121,Pooja Deshmukh,doctor21@caresync.com,Ophthalmologist,Wellness Hub - Mumbai,710
+122,Anita Reddy,doctor22@caresync.com,Gastroenterologist,City Care Clinic - Chennai,1690
+123,Meera Iyer,doctor23@caresync.com,Cardiologist,City Care Clinic - Delhi,920
+124,Sneha Reddy,doctor24@caresync.com,Dermatologist,Healwell Center - Lucknow,310
+125,Priya Chatterjee,doctor25@caresync.com,Orthopedic Surgeon,Global Diagnostics - Hyderabad,760
+126,Advait Kumar,doctor26@caresync.com,Gynecologist,Elite Medical - Lucknow,1820
+127,Suresh Malhotra,doctor27@caresync.com,Gastroenterologist,Apex Healthcare - Hyderabad,850
+128,Rohan Gupta,doctor28@caresync.com,Dermatologist,Family First Clinic - Mumbai,1580
+129,Vijay Gupta,doctor29@caresync.com,Urologist,Healwell Center - Lucknow,1020
+130,Zoya Malhotra,doctor30@caresync.com,Ophthalmologist,City Care Clinic - Delhi,430
+131,Ishaan Reddy,doctor31@caresync.com,Gastroenterologist,Elite Medical - Kolkata,850
+132,Pooja Reddy,doctor32@caresync.com,Gastroenterologist,Elite Medical - Kolkata,1280
+133,Zoya Patel,doctor33@caresync.com,ENT Specialist,Elite Medical - Lucknow,970
+134,Rahul Sharma,doctor34@caresync.com,Gastroenterologist,Metro Health - Hyderabad,1120
+135,Deepak Pillai,doctor35@caresync.com,Urologist,Lifeline Hospital - Ahmedabad,570
+136,Advait Pillai,doctor36@caresync.com,General Physician,City Care Clinic - Jaipur,590
+137,Rahul Verma,doctor37@caresync.com,Urologist,Metro Health - Chennai,1200
+138,Sneha Chatterjee,doctor38@caresync.com,Dentist,Healwell Center - Jaipur,470
+139,Myra Singh,doctor39@caresync.com,Neurologist,Sunrise Medical - Hyderabad,1010
+140,Sneha Rao,doctor40@caresync.com,Psychiatrist,City Care Clinic - Hyderabad,680
+141,Myra Rao,doctor41@caresync.com,Neurologist,Apex Healthcare - Jaipur,1260
+142,Sanjay Malhotra,doctor42@caresync.com,Urologist,City Care Clinic - Delhi,1940
+143,Aditya Mehta,doctor43@caresync.com,General Physician,City Care Clinic - Lucknow,1090
+144,Vikram Kumar,doctor44@caresync.com,ENT Specialist,Global Diagnostics - Lucknow,1510
+145,Anjali Venkatesh,doctor45@caresync.com,Cardiologist,Lifeline Hospital - Bangalore,910
+146,Vihaan Iyer,doctor46@caresync.com,Pediatrician,Family First Clinic - Jaipur,1200
+147,Suresh Mehta,doctor47@caresync.com,Dentist,Healwell Center - Jaipur,1230
+148,Pooja Reddy,doctor48@caresync.com,Cardiologist,Apex Healthcare - Pune,620
+149,Suresh Reddy,doctor49@caresync.com,Endocrinologist,Sunrise Medical - Ahmedabad,800
+150,Vihaan Gupta,doctor50@caresync.com,Orthopedic Surgeon,Healwell Center - Mumbai,910
+151,Amit Gupta,doctor51@caresync.com,ENT Specialist,Elite Medical - Kolkata,1530
+152,Zoya Shetty,doctor52@caresync.com,Dermatologist,Global Diagnostics - Pune,1510
+153,Amit Bose,doctor53@caresync.com,Dentist,Lifeline Hospital - Delhi,1160
+154,Vijay Bose,doctor54@caresync.com,Pediatrician,Wellness Hub - Delhi,1570
+155,Saisha Malhotra,doctor55@caresync.com,Neurologist,Wellness Hub - Jaipur,1720
+156,Saisha Malhotra,doctor56@caresync.com,Endocrinologist,Global Diagnostics - Chennai,520
+157,Vihaan Pillai,doctor57@caresync.com,Pediatrician,Wellness Hub - Mumbai,1560
+158,Amit Rao,doctor58@caresync.com,Neurologist,Lifeline Hospital - Mumbai,1550
+159,Ananya Venkatesh,doctor59@caresync.com,Orthopedic Surgeon,Family First Clinic - Pune,940
+160,Rohan Kulkarni,doctor60@caresync.com,Psychiatrist,Global Diagnostics - Pune,1840
+161,Saisha Patel,doctor61@caresync.com,Psychiatrist,City Care Clinic - Lucknow,1130
+162,Ishaan Patel,doctor62@caresync.com,Urologist,Sunrise Medical - Hyderabad,1180
+163,Anita Kulkarni,doctor63@caresync.com,Gynecologist,Lifeline Hospital - Ahmedabad,1250
+164,Sanjay Kumar,doctor64@caresync.com,Pediatrician,Sunrise Medical - Delhi,400
+165,Saisha Shetty,doctor65@caresync.com,Dermatologist,Lifeline Hospital - Hyderabad,1270
+166,Diya Singh,doctor66@caresync.com,Oncologist,City Care Clinic - Chennai,810
+167,Suresh Joshi,doctor67@caresync.com,Dermatologist,Sunrise Medical - Mumbai,1320
+168,Meera Gupta,doctor68@caresync.com,Gynecologist,Wellness Hub - Pune,1830
+169,Vivaan Bose,doctor69@caresync.com,Oncologist,Family First Clinic - Delhi,960
+170,Sanjay Rao,doctor70@caresync.com,Neurologist,Metro Health - Ahmedabad,1250
+171,Amit Reddy,doctor71@caresync.com,Pediatrician,Elite Medical - Lucknow,1730
+172,Anjali Malhotra,doctor72@caresync.com,Gastroenterologist,Metro Health - Lucknow,560
+173,Myra Malhotra,doctor73@caresync.com,Gastroenterologist,Healwell Center - Mumbai,1460
+174,Deepak Sharma,doctor74@caresync.com,Psychiatrist,Apex Healthcare - Chennai,1700
+175,Ananya Nair,doctor75@caresync.com,Gastroenterologist,Metro Health - Ahmedabad,670
+176,Aditya Mehta,doctor76@caresync.com,Cardiologist,Metro Health - Lucknow,1300
+177,Kiran Shetty,doctor77@caresync.com,Endocrinologist,City Care Clinic - Delhi,750
+178,Pooja Iyer,doctor78@caresync.com,Dermatologist,City Care Clinic - Pune,1250
+179,Deepak Joshi,doctor79@caresync.com,Pediatrician,Apex Healthcare - Hyderabad,1400
+180,Advait Sharma,doctor80@caresync.com,Dentist,Apex Healthcare - Ahmedabad,1470
+181,Vikram Pillai,doctor81@caresync.com,Cardiologist,Family First Clinic - Delhi,1360
+182,Vivaan Verma,doctor82@caresync.com,Endocrinologist,Metro Health - Lucknow,1570
+183,Pooja Kulkarni,doctor83@caresync.com,Oncologist,City Care Clinic - Pune,730
+184,Pooja Malhotra,doctor84@caresync.com,Ophthalmologist,Family First Clinic - Chennai,1420
+185,Anita Singh,doctor85@caresync.com,Gynecologist,Family First Clinic - Pune,1430
+186,Vijay Malhotra,doctor86@caresync.com,Gastroenterologist,Sunrise Medical - Hyderabad,1540
+187,Pooja Venkatesh,doctor87@caresync.com,Cardiologist,Elite Medical - Kolkata,860
+188,Aarav Iyer,doctor88@caresync.com,Orthopedic Surgeon,Global Diagnostics - Mumbai,610
+189,Anita Kumar,doctor89@caresync.com,Gastroenterologist,Elite Medical - Chennai,2000
+190,Priya Mehta,doctor90@caresync.com,General Physician,Apex Healthcare - Hyderabad,880
+191,Amit Singh,doctor91@caresync.com,Pediatrician,City Care Clinic - Pune,630
+192,Rahul Verma,doctor92@caresync.com,ENT Specialist,Apex Healthcare - Pune,500
+193,Ananya Kulkarni,doctor93@caresync.com,Endocrinologist,Family First Clinic - Chennai,770
+194,Rohan Sharma,doctor94@caresync.com,Gastroenterologist,Elite Medical - Ahmedabad,1840
+195,Kabir Gupta,doctor95@caresync.com,Pediatrician,Healwell Center - Lucknow,630
+196,Rohan Kulkarni,doctor96@caresync.com,Gynecologist,Sunrise Medical - Hyderabad,1280
+197,Myra Nair,doctor97@caresync.com,Pediatrician,Metro Health - Bangalore,1490
+198,Vijay Mehta,doctor98@caresync.com,Endocrinologist,Metro Health - Lucknow,1640
+199,Pooja Gupta,doctor99@caresync.com,Cardiologist,Metro Health - Ahmedabad,790
+200,Saisha Iyer,doctor100@caresync.com,Cardiologist,Apex Healthcare - Chennai,370
