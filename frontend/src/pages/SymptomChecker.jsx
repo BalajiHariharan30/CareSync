@@ -17,7 +17,7 @@ const SymptomChecker = () => {
         setResult(null);
 
         try {
-            const { data } = await axios.post('http://localhost:5000/api/ai/symptoms', { symptoms });
+            const { data } = await axios.post('/api/ai/symptoms', { symptoms });
             setResult(data);
         } catch (err) {
             setError(err.response?.data?.message || 'Error checking symptoms. Please try again later.');

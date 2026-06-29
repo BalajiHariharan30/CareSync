@@ -513,7 +513,7 @@ const PatientDashboard = () => {
                                             <p className="text-sm text-gray-500">{new Date(rec.createdAt).toLocaleDateString()}</p>
                                             {rec.notes && <p className="text-sm mt-1">{rec.notes}</p>}
                                         </div>
-                                        <a href={`http://localhost:5000${rec.documentUrl}`} target="_blank" rel="noreferrer" className="btn btn-outline btn-sm">View Document</a>
+                                        <a href={`/api${rec.documentUrl}`} target="_blank" rel="noreferrer" className="btn btn-outline btn-sm">View Document</a>
                                     </div>
                                 ))}
                             </div>

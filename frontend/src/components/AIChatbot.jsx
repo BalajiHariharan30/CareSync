@@ -59,7 +59,7 @@ const AIChatbot = () => {
 
         try {
             const history = messages.map(m => ({ role: m.isBot ? 'model' : 'user', text: m.text }));
-            const { data } = await axios.post('http://localhost:5000/api/ai/chat', { message: currentInput, history });
+            const { data } = await axios.post('/api/ai/chat', { message: currentInput, history });
             setMessages(prev => [...prev, { text: data.reply, isBot: true }]);
         } catch (error) {
             console.error("Chat error:", error);
