@@ -16,6 +16,8 @@ import SymptomChecker from './pages/SymptomChecker';
 import VerifyEmail from './pages/VerifyEmail';
 import ForgotPassword from './pages/ForgotPassword';
 import ResetPassword from './pages/ResetPassword';
+import AiHealthCheck from './ai-prediction/AiHealthCheck';
+import AiDoctorView from './ai-prediction/AiDoctorView';
 
 const ProtectedRoute = ({ children }) => {
   const { user, loading } = useContext(AuthContext);
@@ -44,6 +46,18 @@ function App() {
             <Route path="/verify/:token" element={<VerifyEmail />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
             <Route path="/reset-password/:token" element={<ResetPassword />} />
+
+            <Route path="/ai-health-check" element={
+              <ProtectedRoute>
+                <AiHealthCheck />
+              </ProtectedRoute>
+            } />
+
+            <Route path="/doctor/ai-predictions" element={
+              <ProtectedRoute>
+                <AiDoctorView />
+              </ProtectedRoute>
+            } />
 
             <Route path="/patient-dashboard" element={
               <ProtectedRoute>

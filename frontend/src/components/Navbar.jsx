@@ -25,6 +25,12 @@ const Navbar = () => {
                     <div className="nav-links">
                         <Link to="/doctors" className="nav-link">Find Doctors</Link>
                         <Link to="/symptom-checker" className="nav-link">Symptom Checker</Link>
+                        {user && !user.isDoctor && !user.isAdmin && (
+                            <Link to="/ai-health-check" className="nav-link">AI Health Check</Link>
+                        )}
+                        {user && user.isDoctor && (
+                            <Link to="/doctor/ai-predictions" className="nav-link">AI Predictions</Link>
+                        )}
                     </div>
 
                     <div className="auth-section">

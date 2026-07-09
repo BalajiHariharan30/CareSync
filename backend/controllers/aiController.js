@@ -1,6 +1,7 @@
 const aiService = require('../utils/aiService');
 const User = require('../models/User');
 const Appointment = require('../models/Appointment');
+const Doctor = require('../models/Doctor');
 
 exports.checkSymptoms = async (req, res) => {
     try {
@@ -54,7 +55,17 @@ exports.chat = async (req, res) => {
             return res.status(400).json({ message: "Message is required" });
         }
 
-        const reply = await aiService.processChatbotMessage(message, history);
+        // Fetch approved doctors dynamically to populate chatbot context
+        const approvedDoctors = await Doctor.find({ isApproved: true }).populate('userId', 'name');
+        const doctorList = approvedDoctors.map(doc => ({
+            name: doc.userId ? doc.userId.name : 'Unknown Doctor',
+            specialization: doc.specialization,
+            consultationFee: doc.consultationFee,
+            ratings: doc.ratings,
+            availabilityStatus: doc.availabilityStatus
+        }));
+
+        const reply = await aiService.processChatbotMessage(message, history, doctorList);
         res.status(200).json({ reply });
     } catch (error) {
         console.error("Error in chat controller:", error);

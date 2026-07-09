@@ -18,8 +18,12 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
-// Serve static files from the uploads directory
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+// Serve static files from the uploads directory (support /tmp directory serving on Vercel)
+if (process.env.VERCEL || process.env.NOW_BUILDER) {
+    app.use('/uploads', express.static('/tmp'));
+} else {
+    app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+}
 
 // Connect to DB (using a local database for now or mongo URI from env)
 const mongoURI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/doctor_appointment';
@@ -37,6 +41,7 @@ const adminRoutes = require('./routes/adminRoutes');
 const aiRoutes = require('./routes/aiRoutes');
 const recordRoutes = require('./routes/recordRoutes');
 const prescriptionRoutes = require('./routes/prescriptionRoutes');
+const aiPredictionRoutes = require('./ai-prediction/aiPredictionRoutes');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/doctors', doctorRoutes);
@@ -45,6 +50,7 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/ai', aiRoutes);
 app.use('/api/records', recordRoutes);
 app.use('/api/prescriptions', prescriptionRoutes);
+app.use('/api/ai-prediction', aiPredictionRoutes);
 
 // Basic Route
 app.get('/', (req, res) => {

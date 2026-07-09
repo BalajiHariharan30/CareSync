@@ -109,12 +109,21 @@ async function predictCancellationRisk(patientHistory) {
     }
 }
 
-async function processChatbotMessage(message, history = []) {
+async function processChatbotMessage(message, history = [], doctorList = []) {
+    const doctorsInfoStr = doctorList.length > 0 
+        ? doctorList.map(doc => `- Dr. ${doc.name} (Specialty: ${doc.specialization}, Fee: ₹${doc.consultationFee}, Rating: ${doc.ratings}/5, Status: ${doc.availabilityStatus})`).join('\n')
+        : 'None available currently';
+
     const context = `
-    You are a helpful AI assistant for a Doctor Appointment Booking system.
+    You are a helpful AI assistant for CareSync Pro, a Doctor Appointment Booking system.
     You help patients book appointments, check doctor availability, hospital info, and answer basic health queries.
     Keep your answers concise and professional.
     If the user asks to book an appointment, instruct them to use the "Book Appointment" form on the dashboard.
+    
+    Here is the list of ACTUAL approved doctors in our database:
+    ${doctorsInfoStr}
+    
+    CRITICAL: You MUST ONLY recommend, reference, or mention doctors from the list above. Do NOT make up or hallucinate any other doctor names under any circumstance. If a user asks for a specialist that is not in the list, politely inform them that we do not currently have a specialist of that type in our system, and list the specialties/doctors that are available.
     `;
 
     const formattedHistory = history.map(h => {
